@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Lingua Deus| Download App</title>
+        
+        <link rel="icon" type= "image/png" href="InTheirShoes.png">
+        <link rel="stylesheet" href="DownloadApp.css">
+    </head>
+
+    <body>
+        <header class="header-bar">
+            <div class="logo">
+                <img src="InTheirShoes.png">
+            </div>
+            <div class="LD_sign">Lingua Deus</div>
+            <nav class="nav-links">
+                <a href="DownloadApp.html">Download App</a>
+                <a href="AboutUs.html">About Us</a>
+                <a href="https://www.unhcr.org/rs/19987-unhcr-zapoceo-projekat-u-njihovim-patikama-namenjen-srednjoskolcima-u-srbiji.html">In Their Shoes</a>
+                <a href="ContactUs">Contact</a>
+            </nav>
+        </header>
+
+
+        <div id="download_part">
+            <div id="download_text">Download Lingua Deus App and Start Learning Serbian Language</div>
+            <button id="download">Download</button>
+        </div>
+
+
+        <script>
+            document.getElementById("download").addEventListener("click", function() {
+                const apkURL = "app-debug.apk"; 
+                window.location.href = apkURL;
+              });
+        </script>
+
+    </body>
+</html>

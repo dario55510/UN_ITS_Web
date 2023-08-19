@@ -1,0 +1,44 @@
+.header-bar{
+    display:flex;
+    align-items:center;
+    background-color: #0072bc;
+    color: white;
+    padding: 10px;
+}
+.logo img{
+    width: 50px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.LD_sign{
+    margin-right:280px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+#download_part{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#download_text{
+    font-family: fantasy;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#download{
+    background-color: #0072bc;
+    color: white;
+    font-family: fantasy;
+    text-align: center;
+    padding: 50px;
+    width: 150px;
+    height: 2px;
+}
